@@ -1,0 +1,24 @@
+# Segredos
+.env
+
+# Cache e banco de dados (dados locais, não sobe no repo)
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDEs
+.vscode/
+.idea/
+*.swp

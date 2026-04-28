@@ -1,0 +1,42 @@
+# ============================================================
+# FOOTBALL ANALYTICS - DEPENDÊNCIAS
+# Instale com: pip install -r requirements.txt
+# ============================================================
+
+# --- Framework Web / Dashboard ---
+streamlit>=1.35.0
+streamlit-extras>=0.4.0
+
+# --- HTTP e Web Scraping ---
+requests>=2.31.0
+httpx>=0.27.0
+beautifulsoup4>=4.12.0
+lxml>=5.2.0
+
+# --- Dados e Análise ---
+pandas>=2.2.0
+numpy>=1.26.0
+scipy>=1.13.0      # MLE Dixon-Coles (fit_dixon_coles)
+
+# --- FBref / StatsBomb via soccerdata ---
+soccerdata>=0.5.0
+
+# --- Visualização ---
+plotly>=5.22.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+mplsoccer>=1.3.0
+
+# --- Banco de Dados / Cache ---
+# SQLite já vem embutido no Python
+
+# --- Configuração ---
+python-dotenv>=1.0.0
+
+# --- Utilitários ---
+pytz>=2024.1
+tqdm>=4.66.0
+tenacity>=8.3.0
+
+# --- Tipos e Validação ---
+pydantic>=2.7.0
