@@ -4,6 +4,9 @@
 # Cache e banco de dados (dados locais, não sobe no repo)
 data/
 
+# Arquivos baixados pelo soccerdata/selenium (não necessários no deploy)
+downloaded_files/
+
 # Python
 __pycache__/
 *.pyc

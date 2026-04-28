@@ -19,7 +19,9 @@ numpy>=1.26.0
 scipy>=1.13.0      # MLE Dixon-Coles (fit_dixon_coles)
 
 # --- FBref / StatsBomb via soccerdata ---
-soccerdata>=0.5.0
+# soccerdata requer Chrome/Selenium — incompatível com Streamlit Cloud.
+# Para usar xG localmente: pip install soccerdata
+# soccerdata>=0.5.0
 
 # --- Visualização ---
 plotly>=5.22.0
